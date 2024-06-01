@@ -1,0 +1,24 @@
+{
+  "name": "extension-template-react",
+  "id": "extension-template-react",
+  "description": "This is a custom UI demo.",
+  "icon": "logo.svg",
+  "commands": [
+    {
+      "name": "index",
+      "title": "Custom UI React",
+      "subtitle": "",
+      "description": "",
+      "runtime": "iframe",
+      "framework": "react"
+    },
+    {
+      "name": "hello",
+      "title": "Hello React",
+      "subtitle": "",
+      "description": "",
+      "runtime": "iframe",
+      "framework": "react"
+    }
+  ]
+}
