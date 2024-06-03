@@ -1,6 +1,6 @@
 {
+  "title": "Extension Template React",
   "name": "extension-template-react",
-  "id": "extension-template-react",
   "description": "This is a custom UI demo.",
   "icon": "logo.svg",
   "commands": [
