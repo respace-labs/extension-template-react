@@ -1,23 +1,30 @@
 {
-  "title": "Extension Template React",
   "name": "extension-template-react",
+  "title": "Extension Template React",
   "description": "This is a custom UI demo.",
-  "icon": "logo.svg",
+  "icon": {
+    "name": "mdi--react",
+    "className": "bg-blue-500"
+  },
   "commands": [
-    {
-      "name": "index",
-      "title": "Custom UI React",
-      "subtitle": "",
-      "description": "",
-      "runtime": "iframe",
-      "framework": "react"
-    },
     {
       "name": "hello",
       "title": "Hello React",
-      "subtitle": "",
-      "description": "",
-      "runtime": "iframe",
+      "icon": {
+        "name": "mdi--react",
+        "className": "bg-blue-500"
+      },
+      "mode": "custom-ui",
+      "framework": "react"
+    },
+    {
+      "name": "count",
+      "icon": {
+        "name": "lucide--clock",
+        "className": "bg-gradient-to-r from-teal-500 to-cyan-500"
+      },
+      "title": "React Count",
+      "mode": "custom-ui",
       "framework": "react"
     }
   ]
